@@ -1,4 +1,4 @@
-🌿 Turie — Adventure Travel & Tourism Website
+Turie — Adventure Travel & Tourism Website
 
 A fully responsive adventure travel and tourism website built from scratch using HTML5, CSS3, and JavaScript. Designed with an earthy Jungle & Earth colour palette, the site showcases destinations, trips, and travel services with smooth animations and interactive components.
 
