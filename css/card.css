@@ -1,0 +1,231 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz@0,9..144;1,9..144&display=swap');
+
+
+.destinations{
+
+    padding:100px 0;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)),
+    url(../images/service-18.jpg);
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* SECTION HEADING */
+
+.sec-head{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.sec-head h2{
+    font-size:52px;
+    font-family:'Fraunces', serif;
+    color:#F0EBD8;
+    margin-bottom:15px;
+}
+
+.sec-head h2 span{
+    color:#EF9F27;
+}
+
+.sec-head p{
+    color:rgba(240,235,216,0.8);
+    font-size:16px;
+    width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* MAIN CARD AREA */
+
+.options{
+    display:flex;
+    gap:18px;
+    width:100%;
+    height:520px;
+}
+
+/* EACH CARD */
+
+.option{
+
+    position:relative;
+
+    flex:1;
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    background-size:cover;
+    background-position:center;
+
+    transition:all 0.6s ease;
+}
+
+/* ACTIVE CARD */
+
+.option.active{
+    flex:5;
+}
+
+/* DARK OVERLAY */
+
+.option .shadow{
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,0.92),
+        rgba(0,0,0,0.15)
+    );
+}
+
+/* CONTENT */
+
+.option .label{
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:100%;
+
+    padding:30px;
+
+    box-sizing:border-box;
+
+    z-index:5;
+}
+
+/* TEXT AREA */
+
+.option .info{
+    opacity:0;
+    transform:translateY(20px);
+
+    transition:0.5s ease;
+}
+
+.option.active .info{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* TAG */
+
+.tag{
+    display:inline-block;
+
+    background:#C8501E;
+
+    color:#fff;
+
+    padding:6px 15px;
+
+    border-radius:30px;
+
+    font-size:11px;
+
+    letter-spacing:1px;
+
+    margin-bottom:18px;
+}
+
+/* TITLE */
+
+.main{
+    font-size:42px;
+
+    font-family:'Fraunces', serif;
+
+    color:#F0EBD8;
+
+    margin-bottom:10px;
+}
+
+/* SUBTITLE */
+
+.sub{
+    color:rgba(240,235,216,0.82);
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    margin-bottom:18px;
+
+    max-width:420px;
+}
+
+/* META */
+
+.trip-meta{
+    display:flex;
+    gap:18px;
+
+    margin-bottom:22px;
+
+    color:#F0EBD8;
+
+    font-size:14px;
+}
+
+.trip-meta i{
+    color:#EF9F27;
+}
+
+/* PRICE */
+
+.price-row{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.price-row h3{
+    color:#EF9F27;
+
+    font-size:34px;
+
+    margin:0;
+}
+
+/* BUTTON */
+
+.price-row a{
+
+    background:#EF9F27;
+
+    color:#1E2D1E;
+
+    text-decoration:none;
+
+    padding:11px 22px;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    transition:0.3s;
+}
+
+.price-row a:hover{
+
+    background:#C8501E;
+
+    color:#fff;
+}

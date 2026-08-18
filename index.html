@@ -1,0 +1,616 @@
+<!doctype html>
+<html>
+<head>
+<title>Turie Adventure Tour and Travel</title>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz@0,9..144;1,9..144&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="js/jquery.bxslider.js"></script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/back-to-top.css" >
+<link rel="stylesheet" href="css/card.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/rain.css">
+
+
+
+<link rel="stylesheet" href="css/logo-slider.css">
+
+<link href="lib/animate/animate.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<a id="button">
+<img src="images/scroll-top.png" alt="Back To Top">
+</a>
+
+
+<header>
+<div class="topbar">
+<div class="wrapper">
+<div class="tl wow animate__slideInLeft">
+<ul>
+<li><a href="tel:+91-767664545"><i class="fa-solid fa-phone"></i> +91-767664545</a></li>
+<li><a href="mailto:support@wildfire.com"><i class="fa-solid fa-envelope"></i>support@turie.com</a></li>
+</ul>
+</div>
+
+<div class="tr wow animate__slideInRight">
+<ul>
+<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+<li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+</ul>
+</div>
+<div class="c"></div>
+</div>
+</div>
+
+<div class="header">
+<div class="wrapper">
+<div class="logo wow animate__slideInLeft">
+ <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+</div>
+<nav class="wow animate__slideInRight">
+<ul>
+<li><a href="#">Destinations</a></li>
+<li><a href="#">Trips</a></li>
+<li><a href="#">Blogs</a></li>
+<a href="#" class="btn-book">Book Now</a>
+</ul>
+</nav>
+<div class="c"></div>
+</div>
+</div>
+
+</header>
+<section>
+<div class="banner">
+
+<ul class="bxslider">
+  <li><img src="images/mountbanner.jpg" /></li>
+  <li><img src="images/video_block.jpeg" /></li>
+  <li><img src="images/GrandCanyon.webp" /></li>
+  <li><img src="images/desertpic.webp" /></li>
+</ul>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+      pager:false,
+      controls:true,
+      auto:true,
+      prevText:'<i class="fa-solid fa-angle-left"></i>',
+      nextText:'<i class="fa-solid fa-angle-right"></i>' 
+  });  
+});
+</script>
+
+<div class="wrapper">
+<div class="scon wow animate__slideInLeft">
+<div class="badge">Season 2026 · Now Open</div>
+<h2>Into the Fire,<span>Into the Wild</span></h2>
+<p>Handpicked treks across the world's wildest places from canyon depths to aurora skies, every journey is a reckoning with what you're made of.</p>
+<a href="#" class="hvr-float-shadow"><i class="fa-regular fa-compass"> Explore Now</i></a>
+</div>
+</div>
+
+</div> 
+
+
+<div class="sf-wrap">
+<div class="ex1 wow animate__heartBeat">
+<img src="images/fly1.png" />
+</div>
+
+<div class="sf-title wow animate__heartBeat">Find your next adventure</div>
+<div class="sf-form ">
+<form action="#">
+<div class="sf-row">
+
+
+<div class="sf-field">
+<div class="sf-label"><i class="fa-solid fa-location-dot"></i> Destination</div>
+<div class="sf-input-wrap">
+<i class="fa-solid fa-chevron-down" style="font-size:11px;color:#A09880;pointer-events:none"></i>
+<select>
+  <option value="" disabled selected>Where to?</option>
+  <optgroup label="Himalayas">
+	<option>Spiti Valley, Himachal Pradesh</option>
+	<option>Ladakh, Jammu & Kashmir</option>
+  </optgroup>
+  <optgroup label="Northeast India">
+	<option>Meghalaya — Living Root Bridges</option>
+  </optgroup>
+  <optgroup label="South India">
+	<option>Hampi, Karnataka</option>
+	<option>Coorg, Karnataka</option>
+  </optgroup>
+  <optgroup label="Islands & Deserts">
+	<option>Andaman Islands</option>
+	<option>Rann of Kutch, Gujarat</option>
+  </optgroup>
+  <optgroup label="International">
+	<option>Patagonia, Chile</option>
+	<option>Torres del Paine, Chile</option>
+	<option>Salar de Uyuni, Bolivia</option>
+	<option>Sahara Desert, Morocco</option>
+	<option>Milford Sound, New Zealand</option>
+	<option>Grand Canyon, USA</option>
+	<option>Iceland — Aurora & Glaciers</option>
+	<option>Zhangjiajie, China</option>
+	<option>Ha Long Bay, Vietnam</option>
+	<option>Serengeti, Tanzania</option>
+	<option>Machu Picchu, Peru</option>
+  </optgroup>
+
+</select>
+</select>
+</div>
+</div>
+
+<div class="sf-field">
+<div class="sf-label"><i class="fa-solid fa-calendar-days"></i> Travel Date</div>
+<div class="sf-input-wrap">
+<i class="fa-regular fa-calendar" style="color:#A09880;font-size:13px"></i>
+<input type="date" id="travel-date">
+</div>
+</div>
+
+
+<div class="sf-field">
+<div class="sf-label"><i class="fa-solid fa-calendar-check"></i> Return Date</div>
+<div class="sf-input-wrap">
+<i class="fa-regular fa-calendar" style="color:#A09880;font-size:13px"></i>
+<input type="date" id="return-date">
+</div>
+</div>
+
+<div class="sf-field">
+<div class="sf-label"><i class="fa-solid fa-user-group"></i> Persons</div>
+<div class="counter-row">
+<button type="button" class="cbtn" onclick="changeCount(-1)">−</button>
+<span id="person-count">1</span>
+<button type="button" class="cbtn" onclick="changeCount(1)">+</button>
+
+</div>
+</div>
+
+</div>
+
+
+<div class="sf-divider-bottom">
+<div>
+<div class="filter-label">Quick filters</div>
+<div class="sf-tags">
+<span class="sf-tag active" onclick="toggleTag(this)">Trekking</span>
+<span class="sf-tag" onclick="toggleTag(this)">Camping</span>
+<span class="sf-tag" onclick="toggleTag(this)">Rafting</span>
+<span class="sf-tag" onclick="toggleTag(this)">Wildlife</span>
+<span class="sf-tag" onclick="toggleTag(this)">Diving</span>
+<span class="sf-tag" onclick="toggleTag(this)">Photography</span>
+</div>
+</div>
+<button type="submit" class="sf-btn wow animate__swing">
+<i class="fa-solid fa-magnifying-glass"></i>
+Search Trips
+</button>
+</div>
+
+</form>
+<div class="c"></div>
+</div>
+</div>
+
+
+
+<div class="aboutus">
+
+<div class="cloud cloud-left animate__animated animate__fadeInRight animate__slow">
+<img src="images/cloud-1.png" alt="">
+</div>
+
+<div class="cloud cloud-right wow animate__fadeInRight animate__slow">
+<img src="images/cloud-2.png" alt="">
+</div>
+
+<div class="wrapper">
+<div class="rain front-row"></div>
+<div class="rain back-row"></div>
+
+<div class="wl wow animate__fadeInLeft">
+<img src="images/Leab.png" class="leaf" alt="About WildRoute" />
+<img src="images/Girl-Image.png" class="girl" alt="About WildRoute" />
+
+</div>
+
+<div class="wr wow animate__fadeInDown">
+<h1>Adventure is Our <span>Passion</span></h1>
+<p>Turie is a multi award winning travel agency specializing in adventure expeditions across India and the world. From the frozen deserts of Spiti to the root bridges of Meghalaya, we craft journeys that push boundaries and transform travellers.</p>
+<a href="#">
+	<i class="fa-brands fa-readme"></i>
+	Read More
+</a>
+<div class="counter-section">
+<div class="counter-box">
+	<img src="images/count-icon1.png">
+	<h4>Awards Winning</h4>
+	<h2>120+</h2>
+</div>
+
+<div class="counter-box">
+	<img src="images/count-icon2.png">
+	<h4>Happy Traveler</h4>
+	<h2>3600+</h2>
+</div>
+
+<div class="counter-box">
+	<img src="images/count-icon3.png">
+	<h4>Tours Success</h4>
+	<h2>2.5K</h2>
+</div>
+<div class="counter-box">
+	<img src="images/count-icon4.png">
+	<h4>Our Experience</h4>
+	<h2>25+</h2>
+</div>
+</div>
+</div>
+
+<div class="c"></div>
+</div>
+</div>
+
+
+
+<div class="features">
+<div class="wrapper">
+<div class="f wow zoomIn">
+<img src="images/mission-icon.png" />
+<h2>Trusted Adventure</h2>
+<p>Carefully planned routes focused on safety, authenticity, and unforgettable experiences.</p>
+<a href="#">Read More</a>
+</div>
+
+<div class="f wow zoomIn">
+<img src="images/guide-icon.png" />
+<h2>Expert Guides</h2>
+<p>Certified local professionals with expert knowledge of trails, weather, and hidden gems.</p>
+<a href="#">Read More</a>
+</div>
+
+<div class="f wow zoomIn">
+<img src="images/cl2.png" />
+<h2>Time Flexibility</h2>
+<p>Flexible itineraries designed around your schedule without compromising the adventure.</p>
+<a href="#">Read More</a>
+</div>
+<div class="c"></div>
+
+</div>
+</div>
+</div>
+
+
+<div class="destinations">
+<div class="wrapper">
+
+<div class="sec-head wow animate__slideInDown">
+
+<img src="images/butterfly.gif" class="butterfly" alt="butterfly">
+
+<h2>Epic <span>Destinations</span></h2>
+<p>Curated cinematic adventures across the world’s most breathtaking landscapes.</p>
+</div>
+
+<div class="options">
+<div class="option active" style="background-image:url(images/patagonia.jpg);">
+<div class="shadow"></div>
+<div class="label">
+<div class="info">
+<div class="main">Patagonia</div>
+<div class="sub">
+	Glacier trekking through the wild south.
+</div>
+<div class="trip-meta">
+<span><i class="fa-solid fa-location-dot"></i> Chile</span>
+<span><i class="fa-regular fa-clock"></i> 7 Days</span>
+</div>
+<div class="price-row">
+<h3>$2400</h3>
+<a href="#">Book Tour</a>
+</div>
+
+</div>
+</div>
+</div>
+
+ 
+<div class="option" style="background-image:url(images/gcpack.jpg);">
+<div class="shadow"></div>
+<div class="label">
+<div class="info">
+<div class="main">Grand Canyon</div>
+<div class="sub">
+Epic desert cliffs and canyon sunsets.</div>
+<div class="trip-meta">
+<span><i class="fa-solid fa-location-dot"></i> USA</span>
+<span><i class="fa-regular fa-clock"></i> 5 Days</span>
+</div>
+<div class="price-row">
+<h3>$1850</h3>
+<a href="#">Book Tour</a>
+</div>
+</div>
+</div>
+</div>
+
+   
+<div class="option" style="background-image:url(images/desertpic.webp);">
+<div class="shadow"></div>
+<div class="label">
+<div class="info">
+<div class="main">Sahara</div>
+
+<div class="sub">
+Camel caravans under golden sunset skies.
+</div>
+
+<div class="trip-meta">
+<span><i class="fa-solid fa-location-dot"></i> Morocco</span>
+<span><i class="fa-regular fa-clock"></i> 4 Days</span>
+</div>
+
+<div class="price-row">
+<h3>$1200</h3>
+<a href="#">Book Tour</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="option" style="background-image:url(images/iceland1.webp);">
+<div class="shadow"></div>
+<div class="label">
+<div class="info">
+<div class="main">Iceland</div>
+
+<div class="sub">
+Northern lights and cinematic frozen valleys.
+</div>
+
+<div class="trip-meta">
+<span><i class="fa-solid fa-location-dot"></i> Iceland</span>
+<span><i class="fa-regular fa-clock"></i> 6 Days</span>
+</div>
+
+<div class="price-row">
+<h3>$3100</h3>
+<a href="#">Book Tour</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="option" style="background-image:url(images/uyni.jpg);">
+<div class="shadow"></div>
+<div class="label">
+<div class="info">
+<div class="main">Salar de Uyuni</div>
+
+<div class="sub">
+Mirror reflections across endless salt flats.
+</div>
+
+<div class="trip-meta">
+<span><i class="fa-solid fa-location-dot"></i> Bolivia</span>
+<span><i class="fa-regular fa-clock"></i> 3 Days</span>
+</div>
+
+<div class="price-row">
+<h3>$2050</h3>
+<a href="#">Book Tour</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="gallary">
+<div class="wrapper">
+
+<img src="images/lizard.png" class="lizard wow animate__slideInDown" alt="lizard">
+
+<h2 class="gt wow animate__slideInDown"><span>Adventure</span> Gallery</h2>
+<div class="ph">
+<a class="example-image-link" href="images/blog-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-3.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/g-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/g-2.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/blog-5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-5.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/blog-6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-6.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/blog-single-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-single-3.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/blog-standard-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-standard-2.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/blog-standard-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-standard-3.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/blog-standard-4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/blog-standard-4.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/choose-bg-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/choose-bg-2.jpg" alt=""/></a>
+
+<a class="example-image-link" href="images/g-9.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/g-9.jpg" alt=""/></a>
+</div>
+<div class="c"></div>
+</div>
+</div>
+
+
+
+<div class="review">
+ <img src="images/hotballoon.png" class="balloon-left wow animate__slideInLeft" alt="">
+ <img src="images/hotballoon.png" class="balloon-right wow animate__slideInRight" alt="">
+<div class="wrapper">
+<p class="blogp wow animate__slideInDown">Travel Blog</p>
+<div class="cs">
+<div class="blog">
+<img src="images/blog-1.jpg" alt="blogpic">
+<h2>Life is a beautiful journey not a destination</h2>
+<div class="read-time">
+<i class="fa-regular fa-clock"></i> 5 min read
+</div>
+<span class="by"><a href="#">Michealson Jr.</a></span> | <span class="date">August 17,2025</span> | <span class="comments"><a href="#">No Comments</a></span>
+</div>
+
+<div class="blog">
+<img src="images/blog-2.jpg" alt="blogpic">
+<h2>Enjoyed every moment with my family!</h2>
+<div class="read-time">
+<i class="fa-regular fa-clock"></i> 5 min read
+</div>
+<span class="by"><a href="#">Priya Ghosh</a></span> | <span class="date">March 15,2026</span> | <span class="comments"><a href="#">No Comments</a></span>
+</div>
+
+<div class="blog">
+<img src="images/blog-4.jpg" alt="blogpic">
+<h2>Lived Loved Laughed with no worries</h2>
+<div class="read-time">
+<i class="fa-regular fa-clock"></i> 5 min read
+</div>
+<span class="by"><a href="#">Tom Holland</a></span> | <span class="date">April 27,2026</span> | <span class="comments"><a href="#">No Comments</a></span>
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div class="brand">
+<div class="wrapper">
+<h2 class="wow animate__slideInDown">Brands That Trust Us</h2>
+<div class="customer-logos slider">
+<div class="slide"><img src="images/1.png" alt=""></div>
+<div class="slide"><img src="images/2.png" alt=""></div>
+<div class="slide"><img src="images/3.png" alt=""></div>
+<div class="slide"><img src="images/4.png" alt=""></div>
+<div class="slide"><img src="images/5.png" alt=""></div>
+
+<div class="slide"><img src="images/1.png" alt=""></div>
+<div class="slide"><img src="images/2.png" alt=""></div>
+<div class="slide"><img src="images/3.png" alt=""></div>
+<div class="slide"><img src="images/4.png" alt=""></div>
+<div class="slide"><img src="images/5.png" alt=""></div>
+
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+
+
+<div class="footer">
+<img src="images/travel-sites.png" class="footex wow animate__slideInUp" />
+
+<div class="wrapper">
+<div class="fbox  wow animate__slideInLeft">
+<h2>About Us</h2>
+<p>
+Our mission is simple: to transform the way you travel. We take the stress out of vacation planning by handling every detail from flights and hotel bookings to customized itineraries and local guides
+</p>
+</div>
+
+<div class="fbox wow animate__slideInLeft">
+<h2>Contact Us</h2>
+<ul>
+<li><i class="fa-regular fa-paper-plane"></i>turie@gmail.com</li>
+<li><i class="fa-solid fa-phone-volume"></i>+888 (123) 869523</li>
+<li><i class="fa-solid fa-earth-americas"></i>New York – 1075 Firs Avenue</li>
+</ul>
+</div>
+
+<div class="fbox wow animate__slideInRight">
+<h2>Quick Links</h2>
+<ul>
+<li><a href="#"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+<li><a href="#"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+<li><a href="#"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+<li><a href="#"><i class="fa-solid fa-angle-right"></i> Features</a></li>
+<li><a href="#"><i class="fa-solid fa-angle-right"></i> Blogs</a></li>
+<li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
+</ul>
+</div>
+
+<div class="fbox animate__slideInRight">
+<h2>Reach Us</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14969.632020851712!2d85.81576428715819!3d20.283372300000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19098b76ef6bef%3A0x68534ece0957aea9!2sBhubaneswar%20Event%20Management%20-%20Best%20Wedding%20Planner!5e0!3m2!1sen!2sin!4v1779276218598!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="c"></div>
+
+
+</div>
+</div>
+
+<div class="copy">
+<div class="wrapper">
+<p>All rights reserved. &copy; 2026 Developed by Nida Taj</p>
+</div>
+</div>
+
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="js/back-to-top.js"></script>
+
+
+<script  src="js/logo-slider.js"></script>
+
+
+<script src="js/rain.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+<script src="js/card.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>	
+  <script  src="js/lightbox.js"></script> 
+  <script  src="js/event.js"></script>
+
+
+<script>
+wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       100
+    }
+);
+
+wow.init();
+</script>
+
+</body>
+</html>
